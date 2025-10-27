@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Nadmul Islam siam — Portfolio</title>
+  <meta name="description" content="Personal portfolio — projects, experience, and contact information.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/icons/sun.svg" as="image" type="image/svg+xml">
+  <link rel="preload" href="assets/icons/moon.svg" as="image" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="#" aria-label="Home">Portfolio</a>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+          <img src="assets/icons/menu.svg" alt="Open menu" width="24" height="24">
+        </button>
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#comments">Comments</a></li>
+          <li>
+            <button id="theme-toggle" class="icon-button" aria-label="Toggle theme" title="Toggle theme">
+              <img id="theme-icon" src="assets/icons/sun.svg" alt="Theme icon" width="20" height="20">
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="hero" aria-label="Hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1>Hi, I'm <span class="accent typing-text">Nadmul Islam siam</span>.</h1>
+          <p class="lead">Software Developer crafting performant, accessible experiences.</p>
+          <div class="hero-cta">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button" href="#contact">My resume</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="avatar-placeholder">
+            <div class="avatar-glow"></div>
+          </div>
+          <div class="floating-elements">
+            <div class="floating-element element-1"></div>
+            <div class="floating-element element-2"></div>
+            <div class="floating-element element-3"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Services</h2>
+        <ul class="skills">
+          <li>Website Development</li>
+          <li>App Development</li>
+          <li>Website Hosting</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          I'm a software developer focused on delivering delightful user experiences with clean, maintainable code.
+          I enjoy working across the stack, with a special love for frontend performance and UX. I have strong
+          problem‑solving skills grounded in data structures and algorithms.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS / Tailwind</li>
+          <li>JavaScript / TypeScript</li>
+          <li>C</li>
+          <li>C++</li>
+          <li>Java</li>
+          <li>Data Structures &amp; Algorithms</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Accessibility</li>
+          <li>Performance</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="grid projects">
+          <article class="card project-card">
+            <div class="card-header">
+              <h3>Online Voting System (C)</h3>
+              <div class="tech-stack">
+                <span class="tech-tag">C</span>
+                <span class="tech-tag">Console</span>
+              </div>
+            </div>
+            <p>Console-based voting app in C with candidate management, secure vote casting, admin authentication, and real-time results tally.</p>
+            <div class="card-actions">
+              <a class="button small" href="#" target="_blank" rel="noopener">Live</a>
+              <a class="button small" href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </article>
+          <article class="card project-card">
+            <div class="card-header">
+              <h3>Drum Player (HTML, CSS, JS)</h3>
+              <div class="tech-stack">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+            <p>Interactive drum kit: play via keyboard or clicks, with responsive UI, animated pads, and low-latency audio samples.</p>
+            <div class="card-actions">
+              <a class="button small" href="#" target="_blank" rel="noopener">Live</a>
+              <a class="button small" href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </article>
+          <article class="card project-card">
+            <div class="card-header">
+              <h3>Portfolio Website</h3>
+              <div class="tech-stack">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+            <p>Modern, responsive portfolio website with dark/light theme, interactive animations, and comment system.</p>
+            <div class="card-actions">
+              <a class="button small" href="#" target="_blank" rel="noopener">Live</a>
+              <a class="button small" href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </article>
+          <article class="card project-card">
+            <div class="card-header">
+              <h3>Task Manager App</h3>
+              <div class="tech-stack">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+              </div>
+            </div>
+            <p>Full-stack task management application with user authentication, real-time updates, and drag-and-drop functionality.</p>
+            <div class="card-actions">
+              <a class="button small" href="#" target="_blank" rel="noopener">Live</a>
+              <a class="button small" href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2>Education</h2>
+        <ul class="timeline">
+          <li>
+            <div class="timeline-item">
+              <h3>B.Sc.(Engg.) in Computer Science and Engineering</h3>
+              <span class="muted">Mawlana Bhashani Science and Technology University</span><br>
+              <span class="muted">Jan 2023 – Jun 2027</span>
+              <span class="muted">CGPA: 3.72</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Want to collaborate or just say hi? Reach out:</p>
+        <ul class="contact-list">
+          <li><a href="mailto:nadimulislamsiam@gmail.com">nadimulislamsiam@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/nadimul-islam-siam-2060271bb" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://github.com/nadim2002?tab=overview&from=2025-10-01&to=2025-10-19" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="comments" class="section">
+      <div class="container">
+        <h2>Leave a Comment</h2>
+        <p>Rate my portfolio and share your thoughts:</p>
+        <form class="comment-form">
+          <div class="form-group">
+            <label for="studentId">Student ID</label>
+            <input type="text" id="studentId" name="studentId" required placeholder="Enter your Student ID">
+          </div>
+          <div class="form-group">
+            <label for="rating">Rating (1-10)</label>
+            <select id="rating" name="rating" required>
+              <option value="">Select rating</option>
+              <option value="1">1 - Poor</option>
+              <option value="2">2 - Fair</option>
+              <option value="3">3 - Below Average</option>
+              <option value="4">4 - Average</option>
+              <option value="5">5 - Good</option>
+              <option value="6">6 - Above Average</option>
+              <option value="7">7 - Very Good</option>
+              <option value="8">8 - Great</option>
+              <option value="9">9 - Excellent</option>
+              <option value="10">10 - Outstanding</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="comment">Comment</label>
+            <textarea id="comment" name="comment" rows="4" placeholder="Share your thoughts about my portfolio..."></textarea>
+          </div>
+          <button type="submit" class="button primary">Submit Comment</button>
+        </form>
+        
+        <div id="comments-display" class="comments-display">
+          <div class="comments-header">
+            <h3>Recent Comments</h3>
+            <span id="comment-count" class="comment-count">0 comments</span>
+          </div>
+          <div id="comments-list" class="comments-list">
+            <p class="no-comments">No comments yet. Be the first to leave a rating!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Nadmul Islam siam</span>
+      <a class="muted" href="#">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
+
+
